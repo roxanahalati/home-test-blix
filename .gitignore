@@ -1,6 +1,11 @@
 # macOS
 .DS_Store
-
+android/app/build/
+android/app/intermediates/
+android/app/generated/
+android/app/.cxx/
+android/app/.DS_Store
+android/app/*.iml
 # Node modules
 node_modules/
 
