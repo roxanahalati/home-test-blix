@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# React Native
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.lock
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcuserdata/
+*.idea/
+*.vscode/
+.expo/
+.expo-shared/
+.expo/*
+web-build/
+*.apk
+*.keystore
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Testing
+coverage/
+jest-test-results.json
+
+# Bundler
+*.bundle
+
+# CocoaPods
+ios/Pods/
+*.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Metro, Watchman
+.expo/
+.watchmanconfig
+*.expo
+
+# Typescript
+*.tsbuildinfo
+
+# Misc
+.env
+.env.*
+!.env.example
+*.swp
+
