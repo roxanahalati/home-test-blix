@@ -1,39 +1,55 @@
 # macOS
 .DS_Store
 
-# Node
+# Node modules
 node_modules/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Dependency directories
 package-lock.json
 yarn.lock
 
-# Logs
-*.log
-
 # React Native
+# Android
+android/.gradle/
 android/app/build/
 android/build/
+android/.idea/
+android/.settings/
+android/.cxx/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/.DS_Store
+android/*.iml
+
+# iOS
 ios/build/
 ios/Pods/
+ios/.DS_Store
+ios/xcuserdata/
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+!ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace
 ios/Podfile.lock
-ios/Podfile.lock
-*.xcworkspace
-*.xcuserstate
-*.xcuserdatad
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/xcuserdata/
-*.idea/
-*.vscode/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+
+# Expo
 .expo/
 .expo-shared/
-.expo/*
 web-build/
-*.apk
-*.keystore
 
 # Fastlane
 fastlane/report.xml
@@ -41,33 +57,56 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 
-# Testing
-coverage/
-jest-test-results.json
-
 # Bundler
 *.bundle
 
-# CocoaPods
-ios/Pods/
-*.lock
+# Coverage
+coverage/
+*.lcov
 
 # Temporary files
 tmp/
 temp/
 *.tmp
+*.swp
 
 # Metro, Watchman
-.expo/
 .watchmanconfig
 *.expo
 
-# Typescript
+# TypeScript
 *.tsbuildinfo
 
+# IDEs
+.idea/
+.vscode/
+
 # Misc
+*.apk
+*.keystore
+*.hprof
+*.orig
+
+# Environment variables
 .env
 .env.*
 !.env.example
-*.swp
+
+# Jest
+jest-test-results.json
+
+# Android Studio & Xcode
+*.iml
+.gradle/
+*.hmap
+*.ipa
+
+# Others
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+lerna-debug.log
+
+# Ignore test snapshots
+__snapshots__/
 
